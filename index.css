@@ -1,0 +1,14 @@
+.cursor {
+    display: inline-block;
+    width: 1ch;
+    background-color: currentColor;
+    animation: blink 1s steps(2, start) infinite;
+  }
+  @keyframes blink {
+    50% {
+      background-color: transparent;
+    }
+  }
+  html {
+    scroll-behavior: smooth;
+}
